@@ -27,7 +27,7 @@ fi
 
 _copilot_cli() {
     # run copilot in non-interactive mode with silent output
-    copilot -p "$@" -s --allow-all-tools 2>/dev/null
+    copilot -p "$@" -s --allow-all-tools --model gpt-5-mini 2>/dev/null
 }
 
 _spinner() {
